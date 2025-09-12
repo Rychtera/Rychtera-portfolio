@@ -73,9 +73,11 @@
     .insta:hover { transform: translateY(-2px); filter: brightness(1.05); cursor: pointer; }
 
     .icon-btn {
+
       border: 1px solid rgba(255,255,255,.08); background: var(--panel);
       color: var(--text); border-radius: 999px; height: 40px; width: 40px;
       display: grid; place-items: center; cursor: pointer; transition: border-color .15s ease, transform .15s;
+          display: none;
     }
     .icon-btn:hover{ border-color: rgba(255,255,255,.18); transform: translateY(-1px); }
 
@@ -287,8 +289,8 @@
       </ul>
     </nav>
     <div class="right">
-            <button class="icon-btn" id="lang-en" title="English">EN</button>
-      <button class="icon-btn" id="lang-cz" title="Česky">CZ</button>
+      <button class="icon-btn" id="lang-en" title="English"></button>
+      <button class="icon-btn" id="lang-cz" title="Česky"></button>
       <a class="btn" href="mailto:rychtera.creator@gmail.com?subject=Booking%20shoot">Book a Shoot</a>
     </div>
   </header>
